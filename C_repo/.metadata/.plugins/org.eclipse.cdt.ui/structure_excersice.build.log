@@ -1,0 +1,17 @@
+17:13:20 **** Incremental Build of configuration Debug for project structure_excersice ****
+make all 
+arm-none-eabi-gcc "../main.c" -mcpu=cortex-m4 -std=gnu11 -g -c -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"main.d" -MT"main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "main.o"
+../main.c: In function 'main':
+../main.c:28:17: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'uint32_t *' {aka 'long unsigned int *'} [-Wformat=]
+   28 |         scanf("%u", &packet);
+      |                ~^   ~~~~~~~
+      |                 |   |
+      |                 |   uint32_t * {aka long unsigned int *}
+      |                 unsigned int *
+      |                %lu
+Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
+make: *** [makefile:85: fail-specified-linker-script-missing] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
+
+17:13:21 Build Failed. 2 errors, 1 warnings. (took 638ms)
+

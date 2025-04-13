@@ -1,0 +1,6 @@
+18:51:49 **** Incremental Build of configuration Debug for project string_exercise ****
+Info: Internal Builder is used for build
+gcc -o string_exercise.exe main.o 
+
+18:51:49 Build Finished. 0 errors, 0 warnings. (took 342ms)
+

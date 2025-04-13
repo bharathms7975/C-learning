@@ -1,0 +1,44 @@
+Configuration	test1
+STM32CubeMX 	6.14.0
+Date	04/01/2025
+MCU	STM32F407VGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+PERIPHERALS	MODES	FUNCTIONS	PINS
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : test1
+Project Folder : C:\Users\bhara\STM32CubeIDE\workspace_1.18.0\test1
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.28.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

@@ -1,0 +1,33 @@
+/*
+ * main.c
+ *
+ *  Created on: Apr 12, 2025
+ *      Author: bhara
+ */
+
+#include<stdio.h>
+#include<stdint.h>
+
+int main()
+{
+	int len1;
+	int len2;
+	printf("Enter the length of arr1 and arr2 space seperated: ");
+	scanf("%u %u",&len1, &len2);
+
+	uint32_t arr1[len1];
+	uint32_t arr2[len2];
+
+	for(uint32_t i = 0; i<len1; i++)
+	{
+		printf("Enter %u value of arr1: ",i);
+		scanf("%u", &arr1[i]);
+	}
+
+//	for(uint32_t i = 0; i<len1; i++)
+//	{
+//		printf("Enter %u value of arr1: ",i);
+//		scanf("%u", &arr1[i]);
+//	}
+
+}
